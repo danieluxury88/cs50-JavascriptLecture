@@ -7,9 +7,9 @@
     <title>Document</title>
     <script>
         // wait until DOM is loaded
-        document.addEventListener('DOMContentLoaded', function(){
+        document.addEventListener('DOMContentLoaded', ()=> {
             // look for all buttons in page and iterate on each one
-            document.querySelectorAll('button').forEach(function(button){
+            document.querySelectorAll('button').forEach(button => {
                 // on each button is clicked
                 button.onclick =function(){
                     // look for hello id and style its color according data-color
